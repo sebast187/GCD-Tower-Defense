@@ -5,10 +5,8 @@ You can find both excecutables inside the 'dir' folder, however, if sounds or ga
 
 
 MacOS
-
 pyinstaller --onefile --windowed --add-data "sounds:sounds" main.py
 
 
 Windows
-
 pyinstaller --onefile --windowed --add-data "sounds;sounds" main.py
