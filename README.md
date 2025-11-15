@@ -4,11 +4,11 @@ You can find both excecutables inside the 'dir' folder, however, if sounds or ga
 ** Since 'dir' folder is not available to to its large size, to make it into an excecutable, change the directory towards the 'main.py' file location, then input this command into the terminal:
 
 
-MacOS
+:MacOS:
 
 pyinstaller --onefile --windowed --add-data "sounds:sounds" main.py
 
 
-Windows
+:Windows:
 
 pyinstaller --onefile --windowed --add-data "sounds;sounds" main.py
